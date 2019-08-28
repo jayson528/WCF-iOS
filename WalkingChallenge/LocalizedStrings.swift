@@ -143,6 +143,31 @@ Click continue for a quick tour of the app.
         NSLocalizedString("You don't have any notifications right now.",
                           comment: "You don't have any notifications right now.")
   }
+
+  struct Challenge {
+    static let title: String =
+        NSLocalizedString("Challenge", comment: "Challenge")
+  }
+
+  struct JourneyCard {
+    static let title: String =
+        NSLocalizedString("Journey", comment: "Journey")
+    static let viewMilestoneDetails: String =
+        NSLocalizedString("View milestone details",
+                          comment: "View milestone details")
+    static let milestonesCompleted: String =
+        NSLocalizedString("1 out of 10 milestones completed.",
+                          comment: "1 out of 10 milestones completed.")
+  }
+
+  struct TeamRankCard {
+    static let teamLead: String =
+        NSLocalizedString("Team Lead: ", comment: "Team Lead: ")
+    static let teamMemberRanking: String =
+        NSLocalizedString("Team Member Rankings", comment: "Team Member Rankings")
+    static let viewFullList: String =
+        NSLocalizedString("View full list", comment: "View full list")
+  }
 }
 
 struct Assets {

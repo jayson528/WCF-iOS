@@ -25,7 +25,7 @@
 		ED85D460832E1D261F31B25E /* Pods_WalkingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA48A8026A2CF45C3F6472E /* Pods_WalkingChallenge.framework */; };
 		F004030F1EBF9DAB005E6F10 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004030E1EBF9DAB005E6F10 /* JSON.swift */; };
 		F00403151EC3EC6F005E6F10 /* AKFCausesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00403141EC3EC6F005E6F10 /* AKFCausesService.swift */; };
-		F00403191EC3FB7D005E6F10 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		F00403191EC3FB7D005E6F10 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		F004031D1EC52772005E6F10 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004031C1EC52772005E6F10 /* AppConfig.swift */; };
 		F01515281EE7A6E100F56B73 /* ProgressStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01515271EE7A6E100F56B73 /* ProgressStepsView.swift */; };
 		F017B68E227686A60023E84B /* OnboardingWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F017B68D227686A60023E84B /* OnboardingWelcome.swift */; };
@@ -43,6 +43,8 @@
 		F0A0A5FE2210EC3600F20315 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A0A5FD2210EC3600F20315 /* Navigation.swift */; };
 		F0A992D61EABF037001621A6 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A992D51EABF037001621A6 /* Formatters.swift */; };
 		F0A992D81EAC3812001621A6 /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A992D71EAC3812001621A6 /* ProgressRing.swift */; };
+		F0B216B62313176700085411 /* JourneyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B216B52313176700085411 /* JourneyCard.swift */; };
+		F0B216BA2316322900085411 /* TeamRankCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B216B92316322900085411 /* TeamRankCard.swift */; };
 		F0C6D50D1EA3071A008E3B82 /* SelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C6D50C1EA3071A008E3B82 /* SelectionButton.swift */; };
 		F0CBDA4E1EA6FCAB00BB34F1 /* Supporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CBDA4D1EA6FCAB00BB34F1 /* Supporter.swift */; };
 		F0CBDA501EA6FD7200BB34F1 /* SponsorshipDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CBDA4F1EA6FD7200BB34F1 /* SponsorshipDataSource.swift */; };
@@ -102,6 +104,8 @@
 		F0A0A5FD2210EC3600F20315 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		F0A992D51EABF037001621A6 /* Formatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
 		F0A992D71EAC3812001621A6 /* ProgressRing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressRing.swift; sourceTree = "<group>"; };
+		F0B216B52313176700085411 /* JourneyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyCard.swift; sourceTree = "<group>"; };
+		F0B216B92316322900085411 /* TeamRankCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRankCard.swift; sourceTree = "<group>"; };
 		F0C6D50C1EA3071A008E3B82 /* SelectionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionButton.swift; sourceTree = "<group>"; };
 		F0CBDA4D1EA6FCAB00BB34F1 /* Supporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supporter.swift; sourceTree = "<group>"; };
 		F0CBDA4F1EA6FD7200BB34F1 /* SponsorshipDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SponsorshipDataSource.swift; path = WalkingChallenge/SponsorshipDataSource.swift; sourceTree = "<group>"; };
@@ -289,6 +293,8 @@
 			isa = PBXGroup;
 			children = (
 				F0D16A3B2218AD810081440C /* Challenge.swift */,
+				F0B216B52313176700085411 /* JourneyCard.swift */,
+				F0B216B92316322900085411 /* TeamRankCard.swift */,
 			);
 			path = Challenge;
 			sourceTree = "<group>";
@@ -509,7 +515,8 @@
 				F02FB4A21E9188E40097481D /* HealthKitDataProvider.swift in Sources */,
 				F06254C11ECD5D1700168DD6 /* Participant.swift in Sources */,
 				F0F8EDCE220F865200321A6D /* Dashboard.swift in Sources */,
-				F00403191EC3FB7D005E6F10 /* BuildFile in Sources */,
+				F00403191EC3FB7D005E6F10 /* (null) in Sources */,
+				F0B216BA2316322900085411 /* TeamRankCard.swift in Sources */,
 				F0A992D61EABF037001621A6 /* Formatters.swift in Sources */,
 				F0CF39861EE0E903006A7462 /* Record.swift in Sources */,
 				F0F8EDD52210C71600321A6D /* ActivityCard.swift in Sources */,
@@ -548,6 +555,7 @@
 				F0CF39881EE0EA98006A7462 /* Source.swift in Sources */,
 				C9203B901EC41D9C00AC3C9E /* UIImageView.swift in Sources */,
 				F0CBDA501EA6FD7200BB34F1 /* SponsorshipDataSource.swift in Sources */,
+				F0B216B62313176700085411 /* JourneyCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
